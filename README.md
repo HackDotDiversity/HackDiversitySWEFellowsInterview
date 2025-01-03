@@ -31,12 +31,23 @@ This exercise evaluates the following key skills:
 
 ### Preparation and Setup
 
-1. **Fork the Repository**
-   - You must **privately fork** the provided repository and clone it locally. **Publicly forked repositories will result in disqualification from the interview process.**
-   - After creating the private fork, add `HackDotDiversity` as a collaborator to your repository.
-   - Make frequent commits with meaningful messages and push changes to GitHub to maintain a clear history of your progress.
+1. **Create a New Private Repository**
+   - Log in to your GitHub account.
+   - Click on the "+" sign in the top-right corner and select **New repository**.
+   - Name your repository appropriately (e.g., `HackDiversity-2025-TakeHome`).
+   - Ensure the repository visibility is set to **Private**.
 
-2. **Time Allocation**
+2. **Clone and Push**
+   - Clone the original repository to your local machine using the provided link (`git clone` command).
+   - Push the cloned content to your newly created private repository.
+
+3. **Add Hack.Diversity as a Collaborator**
+   - Navigate to your new private repository on GitHub.
+   - Click on the **Settings** tab.
+   - In the left menu, select **Collaborators and teams**.
+   - Click **Add people** and invite the GitHub account `HackDotDiversity` as a collaborator.
+
+4. **Time Allocation**
    - This challenge should take 30–45 minutes, including implementation, testing, and GitHub submission.
 
 ---
@@ -129,7 +140,7 @@ Replace `<session_id>` with the unique session ID received from the `/api/start-
 
 ### Submission Instructions
 
-- In addition to completing the challenge in your **private fork** and adding `HackDotDiversity` as a collaborator:
+- In addition to completing the challenge in your **private repository** and adding `HackDotDiversity` as a collaborator:
   - Submit a **zip file** containing your code to the following link:  
     [Submit Here](https://forms.gle/2zby2Pia3BR4e2na7).
 
@@ -137,53 +148,12 @@ Replace `<session_id>` with the unique session ID received from the `/api/start-
 
 ### Helpful Tips
 
-**Algorithm Hints**  
-- **Linear Search**: Traverse the list and filter items based on accessibility status.
-- **Sorting**: Use a sorting algorithm (e.g., bubble sort, selection sort, or insertion sort) to order routes by distance.
-
-**Validate Locally Before Using the Test API**  
-- Build simple test cases locally to check your filtering and sorting logic before using the test API. Testing locally helps catch issues early, reducing the need for multiple API attempts.
-
-**Read Hints in API Responses for Common Mistakes**  
-- Review API responses after submissions for hints on common issues, like routes not sorted correctly or inaccessible routes included in results.
-
-**Focus on Algorithmic Thinking**  
-- This exercise assesses your understanding of data structures, filtering, and sorting. Plan and verify your algorithm before submitting.
-
-**Using Postman**  
-- **Authorization**: Add a `Bearer <session_id>` token to the Authorization header for all requests.
-- **Organize Requests**: Use a Postman collection to organize requests for session setup, retrieving routes, testing, and final submission.
-
-**Version Control and Submission**  
-- **Commit Regularly**: Commit your code after completing significant tasks, such as implementing filtering or sorting.
-- **Final Submission**: Push all changes to your **private fork** of the GitHub repository and add `HackDotDiversity` as a collaborator. Submit a zip file of your code to the provided Google Form link.
+- **Algorithm Hints**: Use linear search for filtering and simple sorting algorithms for ordering routes.
+- **Validate Locally**: Test locally to reduce API submission errors.
+- **Use Version Control**: Commit regularly with meaningful messages.
 
 ---
 
 ### Evaluation Criteria
 
-Your submission will be evaluated on the following:
-
-1. **Correctness**
-   - Accurately filters accessible routes using linear search.
-   - Correctly sorts routes in ascending order by distance.
-
-2. **Code Quality**
-   - Code should be organized and easy to read.
-   - Proper use of arrays or linked lists for handling route data.
-
-3. **Completion and Submission**
-   - The correct sorted list is submitted via the API.
-   - Your code is pushed to a **private GitHub fork** with a clear, consistent commit history.
-   - You’ve added `HackDotDiversity` as a collaborator.
-   - A zip file of your code is submitted to the provided Google Form link.
-
-4. **Use of GitHub**
-   - Demonstrate proficiency with Git by committing regularly and following a structured workflow.
-
-5. **Efficiency (Bonus)**
-   - Minor inefficiencies are acceptable, but a well-optimized solution will score higher.
-
----
-
-This challenge is an opportunity to showcase your problem-solving skills with data structures, algorithms, and APIs. Take your time to review the instructions, think through your approach, and reach out if you have any questions. We look forward to seeing your solution—GOOD LUCK 👾!
+Your submission will be evaluated on correctness, code quality, completion, and efficiency. Showcase your problem-solving and technical skills—GOOD LUCK👾!
